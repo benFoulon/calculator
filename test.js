@@ -24,7 +24,7 @@ function btnNum(text, className){
 
 btnNum('+','btn operator');
 btnNum('-','btn operator');
-btnNum('x','btn operator');
+btnNum('*','btn operator');
 btnNum('/', 'btn operator');
 btnNum('7', 'btn num');
 btnNum('8', 'btn num');
@@ -44,8 +44,7 @@ btnNum('=',"btn equal-btn");
 /* Fonctions de calcul */
 const clear = document.querySelector('.clear');
 const equal = document.querySelector('.equal-btn');
-const clicButton = document.querySelectorAll('.btn');
-console.log(clicButton);
+
 
 calc.addEventListener('click', getResult);
 
