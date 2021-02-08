@@ -15,7 +15,7 @@ body{
     min-height: 100vh;
     grid-gap: 0.2em;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-rows: repeat(6, 100px);
     border: 1px solid grey;
     box-shadow: 1px 1px 1px black;
 }
